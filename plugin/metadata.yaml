@@ -1,0 +1,8 @@
+name: bot2_memory
+display_name: 轻量长期记忆
+desc: 为每个互动过的人维护一张不超过240字的印象卡，为每个会话维护每天的短事记；每次 LLM 请求自动注入最近7条事记和在场人的印象卡，提供记忆读取/更新工具。四小时无对话时先提炼事记与印象，再把上下文裁剪到50条；每天22:30仅对自上次提炼以来有新消息的会话和人物调用模型，用量写入 provider_stats 和 usage.jsonl。
+short_desc: 印象卡 + 每日事记 + 空闲提炼裁剪的轻量长期记忆。
+author: yqb
+version: 1.0.0
+support_platforms:
+  - aiocqhttp

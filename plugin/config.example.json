@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "daily_time": "22:30",
+  "idle_hours": 4,
+  "keep_messages": 50,
+  "recent_entries": 7,
+  "people_window": 15,
+  "impression_max_chars": 240,
+  "summary_provider": ""
+}
